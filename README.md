@@ -1,20 +1,40 @@
-# Reanimated example
+# React Native Food UI App
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-</p>
+This is a React Native App to show my first impressions with Tailwind CSS + React Native components, and made some animations using Reanimated.
 
-## 🚀 How to use
+Project created with Expo CLI. [See official docs](https://docs.expo.dev/get-started/installation/) to set up the environment.
 
-> `npx create-react-native-app my-app -t with-reanimated`
+## 🛠 Technologies Used 
 
-- Run `yarn` or `npm install`
-- Run `yarn start` or `npm run start` to try it out.
+The following tools were used to build the project:
 
-## 📝 Notes
+- [Expo](https://expo.io/)
+- [React Native](https://reactnative.dev/)
+- [React Navigation](https://reactnavigation.org/docs/getting-started/): Routes and navigation
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/): React Native Reanimated is a powerful animation library.
+- [Native Wind](https://www.nativewind.dev/): NativeWind uses Tailwind CSS as scripting language to create a universal style system for React Native. NativeWind components can be shared between platforms and will output their styles as CSS StyleSheet on web and StyleSheet.create for native.
 
-- [`react-native-reanimated` docs](https://docs.swmansion.com/react-native-reanimated/)
+## 🚀 Open and run the project
+
+First you need to install the native packages and dependencies.
+
+```
+yarn
+```
+
+Run on IOS
+
+```
+yarn ios
+```
+
+Run on Android
+
+```
+yarn android
+```
+
+## Demonstration
+
+### Final Demo
+<img src="/assets/readme/demo.gif" />
